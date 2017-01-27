@@ -1,0 +1,26 @@
+{
+	"name": "comyoo/laravel-elastic-email",
+	"description": "Wrapper for Elastic Email HTTP api to send mails using laravel",
+	"keywords": ["laravel", "email", "elastic"],
+	"license": "MIT",
+	"authors": [
+		{
+			"company": "Sjors v. Leeuwen",
+			"email": "sjors@comyoo.nl",
+			"url": "https://www.comyoo.nl",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"email": "info@comyoo.nl"
+	},
+	"require": {
+		"laravel/framework": "5.1.x|5.2.x|5.3.x"
+	},
+	"autoload": {
+		"psr-4": {
+			"Comyoo\\LaravelElasticEmail\\": "src/"
+		}
+	},
+	"minimum-stability": "stable"
+}
