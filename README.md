@@ -38,3 +38,5 @@ Finally switch your default mail provider to elastic email in your .env file by 
 
 This package was constructed to work exactly the same as the normal laravel mailers and thus usage is the same.
 For more information regarding sending email through laravel see the [Laravel Documentation](https://laravel.com/docs/master/mail)
+
+This should work in Laravel 5.1 and up.
