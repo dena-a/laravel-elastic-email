@@ -1,6 +1,6 @@
 <?php
 
-namespace Comyoo\LaravelElasticEmail;
+namespace Dena\LaravelElasticEmail;
 
 use GuzzleHttp\ClientInterface;
 use Illuminate\Mail\Transport\Transport;

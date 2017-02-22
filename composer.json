@@ -1,26 +1,24 @@
 {
-	"name": "comyoo/laravel-elastic-email",
+	"name": "dena-a/laravel-elastic-email",
 	"description": "Wrapper for Elastic Email HTTP api to send mails using laravel",
-	"keywords": ["laravel", "email", "elastic"],
+	"type": "library",
+	"homepage": "https://github.com/dena-a/laravel-elastic-email",
 	"license": "MIT",
+	"keywords": ["laravel", "email", "elastic", "elasticemail"],
 	"authors": [
 		{
-			"company": "Sjors v. Leeuwen",
-			"email": "sjors@comyoo.nl",
-			"url": "https://www.comyoo.nl",
-			"role": "Developer"
+			"name": "Dena Ajdari",
+			"email": "dena.ajdari@gmail.com"
 		}
 	],
-	"support": {
-		"email": "info@comyoo.nl"
-	},
+	"minimum-stability": "stable",
 	"require": {
-		"laravel/framework": "5.1.x|5.2.x|5.3.x"
+		"php": ">=5.5.0",
+		"laravel/framework": ">=5.1.0"
 	},
 	"autoload": {
 		"psr-4": {
-			"Comyoo\\LaravelElasticEmail\\": "src/"
+			"Dena\\IranPayment\\": "src"
 		}
 	},
-	"minimum-stability": "stable"
 }

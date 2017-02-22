@@ -1,6 +1,6 @@
 <?php
 
-namespace Comyoo\LaravelElasticEmail;
+namespace Dena\LaravelElasticEmail;
 
 use Illuminate\Mail\MailServiceProvider as OriginalServiceProvider;
 
