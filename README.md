@@ -26,7 +26,7 @@ Third disable the laravel default MailServiceProvider in config/app.php and add 
 ],
 ```
 
-Finally switch your default mail provider to elastic email in your .env file by setting MAIL_DRIVER=elastic_email
+Finally switch your default mail provider to elastic email in your .env file by setting MAIL_DRIVER=elasticemail
 
 ### Usage ###
 
