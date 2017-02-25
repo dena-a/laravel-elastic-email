@@ -12,8 +12,8 @@ composer require dena-a/laravel-elastic-email
 Next add the following to your config/services.php
 ```php
 'elasticemail' => [
-	'api_key' => env('ELASTIC_API_KEY'),
-	'public_account_id' => env('ELASTIC_ACCOUNT_ID')
+	'key' => env('ELASTIC_KEY'),
+	'account' => env('ELASTIC_ACCOUNT')
 ]
 ```
 and add the correct values to your .env file.
@@ -26,7 +26,7 @@ Third disable the laravel default MailServiceProvider in config/app.php and add 
 ],
 ```
 
-Finally switch your default mail provider to elastic email in your .env file by setting MAIL_DRIVER=elasticemail
+Finally switch your default mail provider to elastic email in your .env file by setting MAIL_DRIVER=elastic_email
 
 ### Usage ###
 
