@@ -24,11 +24,11 @@ class ElasticTransport extends Transport
     protected $key;
 
     /**
-     * The Elastic Email username.
+     * The Elastic Email account.
      *
      * @var string
      */
-    protected $username;
+    protected $account;
 
     /**
      * THe Elastic Email API end-point.
@@ -42,15 +42,15 @@ class ElasticTransport extends Transport
      *
      * @param  \GuzzleHttp\ClientInterface  $client
      * @param  string  $key
-     * @param  string  $username
+     * @param  string  $account
 	 *
      * @return void
      */
-    public function __construct(ClientInterface $client, $key, $username)
+    public function __construct(ClientInterface $client, $key, $account)
     {
     	$this->client = $client;
         $this->key = $key;
-        $this->username = $username;
+        $this->account = $account;
     }
 
     /**
@@ -62,7 +62,7 @@ class ElasticTransport extends Transport
        
         $data = [
             'api_key' => $this->key,
-            'username' => $this->username,
+            'username' => $this->account,
             'msgTo' => $this->getEmailAddresses($message),
             'msgCC' => $this->getEmailAddresses($message, 'getCc'),
             'msgBcc' => $this->getEmailAddresses($message, 'getBcc'),

@@ -6,7 +6,15 @@ A simple plugin to allow sending emails through Elastic E-Mail
 You can add Laravel Elastic Email as a dependency using the composer CLI:
 
 ```bash
-composer require dena-a/laravel-elastic-email
+$ composer require dena-a/laravel-elastic-email
+```
+
+For Laravel 5.1 - 5.3 add the package to your composer.json and run composer update.
+
+```json
+"require": {
+	"dena-a/laravel-elastic-email": "^1.0"
+},
 ```
 
 Next add the following to your config/services.php
@@ -32,8 +40,6 @@ Finally switch your default mail provider to elastic email in your .env file by 
 
 This package was constructed to work exactly the same as the normal laravel mailers and thus usage is the same.
 For more information regarding sending email through laravel see the [Laravel Documentation](https://laravel.com/docs/master/mail)
-
-This should work in Laravel 5.1 and up.
 
 ## License
 
