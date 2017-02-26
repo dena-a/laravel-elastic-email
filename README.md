@@ -13,7 +13,7 @@ For Laravel 5.1 - 5.3 add the package to your composer.json and run composer upd
 
 ```json
 "require": {
-	"dena-a/laravel-elastic-email": "^1.0"
+	"dena-a/laravel-elastic-email": "1.0.3"
 },
 ```
 
