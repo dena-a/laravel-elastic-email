@@ -19,7 +19,7 @@ For Laravel 5.1 - 5.3 add the package to your composer.json and run composer upd
 
 Next add the following to your config/services.php
 ```php
-'elasticemail' => [
+'elastic_email' => [
 	'key' => env('ELASTIC_KEY'),
 	'account' => env('ELASTIC_ACCOUNT')
 ]
